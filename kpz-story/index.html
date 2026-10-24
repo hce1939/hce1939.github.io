@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>On the 2d KPZ Paper: My Story</title>
+<meta name="description" content="A master's student's account of obtaining part of the 2d KPZ results with AI assistance, and a question about who counts as 'the community' in AI-era mathematics.">
+<meta name="author" content="Jhuan Huang">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="On the 2d KPZ Paper: My Story">
+<meta property="og:description" content="A case study in AI for Math and the sociology of knowledge: who counts as 'the community' in AI-era mathematics?">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="On the 2d KPZ Paper: My Story">
+<meta name="twitter:description" content="A case study in AI for Math and the sociology of knowledge: who counts as 'the community' in AI-era mathematics?">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #fbfaf7;
+    --text: #1f1f1f;
+    --muted: #6b6b6b;
+    --rule: #e2dfd8;
+    --link: #2b5a8a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161616;
+      --text: #e6e4df;
+      --muted: #9a978f;
+      --rule: #2e2d2a;
+      --link: #8db6e0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 19px;
+    line-height: 1.7;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 72px 20px 96px;
+  }
+  header { margin-bottom: 48px; }
+  h1 {
+    font-size: 2.1rem;
+    line-height: 1.25;
+    font-weight: 600;
+    margin: 0 0 16px;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  p { margin: 0 0 1.4em; }
+  a { color: var(--link); text-underline-offset: 3px; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 56px 0 32px;
+  }
+  footer {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  @media (max-width: 520px) {
+    body { font-size: 17.5px; }
+    main { padding: 48px 16px 72px; }
+    h1 { font-size: 1.7rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <article>
+    <header>
+      <h1>On the 2d KPZ Paper: My Story</h1>
+      <p class="meta">Jhuan Huang · October 2026</p>
+    </header>
+
+    <p>I'm not sure anyone will see this, but I'd like to share my story behind <a href="https://arxiv.org/abs/2610.31614">this 2d KPZ paper</a>, in the hope that it offers one perspective on AI for Math and a case study in the sociology of knowledge. In short: in September, with AI assistance, I obtained part of the results covered by this paper (that the regularized logarithm of the SHF has a convergent subsequence in a certain space of distributions), and I tried to reach out to experts in the field to discuss it. But in early October, I learned from my advisor that experts in the field had already come together to jointly complete the work on the 2d SHF. According to my advisor, they saw my paper as disruptive to their plan, and hinted that it might affect my future PhD applications. The implication was that I should not publish. And I gave in.</p>
+
+    <p>Here is the fuller story. I am a master's student in mathematics from Taiwan, originally working in probability, specifically on directed polymers. My advisor does not work in this area himself, but Professor Zygouras, one of the authors of the 2d KPZ paper, was once his postdoc mentor. My research interests came about, to some extent, indirectly through this connection. I first encountered the 2d SHF problem around October last year. That December, Professor Tsai, another author of the 2d KPZ paper, gave a talk at my university that also covered the 2d SHF, and the problem made a strong impression on me.</p>
+
+    <p>Fast forward to July. By then, AI tools had already made waves in the mathematical community. I wanted to know what doing research with AI felt like, so I tried using AI to attack the fractional moment problem for the 2d SHF. The AI solved it on the first try. Surprised, I rewrote the result as a paper and posted it on arXiv. After seeing the paper, Professor Zygouras immediately wrote to me and to the probability faculty in my department. He reminded me that discussing more with the mathematical community is beneficial, and asked me to consult the Leiden Manifesto. I felt that posting it had indeed been rash, and after one revision, I decided to withdraw the original paper from arXiv.</p>
+
+    <p>Why did Professor Zygouras know me? Not long before, he had taught a summer school at my university, and I was his teaching assistant. Shortly after my paper appeared, he obtained a similar result by a different method and contacted me, saying we could discuss it. I replied, but he never wrote back. This was the first puzzle that left me wondering.</p>
+
+    <p>In early September, the GPT model was updated, and I used it to attack the problem I mentioned earlier, the convergence of the regularized logarithm of the SHF. It produced a positive result. At that point I knew that the construction of 2d KPZ was probably within AI's reach.</p>
+
+    <p>But I had learned my lesson from last time, and I wanted to discuss it with experts in the field first. So I rewrote the AI's result into a first draft of a paper and, in late September, contacted Professor Tsai. In that email I did not mention that I already had this result. I only said I hoped to discuss questions related to the SHF. In early October, Professor Tsai and I had an online meeting. I told him about the AI's result. He told me that, by unfortunate coincidence, a team had invited him to collaborate the week before, and since the two sides' results overlapped, he needed to go back and discuss it with the team. A few days later, my advisor, who was visiting abroad at the time, contacted me and relayed what the expert team had said, which is what I described in the first paragraph. I decided then to respect my advisor. He did not force me to choose; he only passed on what they had said. I also felt discouraged about this research topic, so I decided to let it go.</p>
+
+    <p>That's the story. Now I'd like to lay out my view. I think that in the age of AI, experts in a field working together to complete a major result sets a very good example. It is certainly much better than researchers burning tokens in a race for priority on a single problem. I also think it is a good thing that the 2d KPZ result was achieved by experts who have worked in this field for a long time. But I can't help feeling that, in this case, I was treated unfairly.</p>
+
+    <p>From my perspective, I was pushed out of their plan not because I used AI (they used AI too), but because &ldquo;I am not part of the community.&rdquo; But what exactly is the community? Does it mean the people who were already in this field before the AI era? True, I only became a graduate student last year, too late to have contributed to the SHF field in the pre-AI era. But their team also includes members who have published only one paper on the SHF, work that also relied on AI assistance (which I think is totally fine). This makes me wonder: if back in September I had given up on contacting &ldquo;the community,&rdquo; saved all that time spent waiting for emails, and simply posted my result, or even gone further and used AI to generate the 2d KPZ result, would I be better off than I am now?</p>
+
+    <p>In any case, let me say it once more: I think this model of expert collaboration on 2d KPZ is a good thing. But I feel obligated to speak about my experience, in the hope of leaving a faint voice of dissent amid the applause. Perhaps, as many have said, in an era when proofs become cheap, the mathematical community's focus may shift toward canonization. But behind canonization lies power, which involves inclusion and exclusion. I hope people will pay attention to the legitimacy behind it.</p>
+  </article>
+
+  <hr>
+  <footer>
+    <p>Jhuan Huang · Master's student in mathematics, NTU</p>
+  </footer>
+</main>
+</body>
+</html>
